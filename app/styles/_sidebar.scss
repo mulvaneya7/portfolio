@@ -1,0 +1,38 @@
+// app/styles/app.scss
+
+.sidebar-container {
+    position: fixed;  // Keep the sidebar fixed in its position
+    left: 0;          // Position the sidebar on the left side
+    height: 100vh;    // Set the height to cover the entire viewport
+    width: 250px;     // Set the desired width of the sidebar
+    background-color: #333; // Set the background color of the sidebar
+    color: #fff;            // Set the text color of the sidebar
+  }
+  
+  .sidebar {
+    padding: 20px;    // Add padding for the content inside the sidebar
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;   // Inherit the text color from the parent
+    display: block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  a:hover {
+    background-color: #444;
+  }
+  
+  
