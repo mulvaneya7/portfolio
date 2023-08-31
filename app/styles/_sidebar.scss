@@ -1,4 +1,5 @@
 // app/styles/app.scss
+@import './fontscolors.scss'; // Import the font and color variables
 
 .sidebar-container {
     position: fixed;  // Keep the sidebar fixed in its position
@@ -20,6 +21,7 @@
   
   li {
     margin-bottom: 10px;
+    font-size: large;
   }
   
   a {
@@ -29,6 +31,7 @@
     padding: 8px 12px;
     border-radius: 5px;
     transition: background-color 0.2s, color 0.2s;
+    font-family: 'Exo', sans-serif;
   }
   
   a:hover {

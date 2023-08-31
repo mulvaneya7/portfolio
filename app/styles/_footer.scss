@@ -1,12 +1,10 @@
-$space_blue: #203658;
+@import './fontscolors.scss'; // Import the font and color variables
 
 .footer {
-    background-color: $space_blue;
+    background-color: $forest_tan;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: flex-start;
+    height: 35px;
 }

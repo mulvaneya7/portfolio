@@ -1,4 +1,4 @@
-$space_blue: #203658;
+@import './fontscolors.scss'; // Import the font and color variables
 
 .headerbar {
     background-color: $space_blue;
@@ -13,11 +13,5 @@ $space_blue: #203658;
         font-size: 30px;
         color: #fff;
         font-family: 'Exo', sans-serif;
-        box-shadow: 0px 4px 10px rgba(241, 238, 238, 0.1);
-        transition: box-shadow 0.3s ease-in-out;
-    }
-
-    h1:hover {
-        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     }
 }
