@@ -1,6 +1,7 @@
+$space_blue: #203658;
 
 .headerbar {
-    background-color: #333;
+    background-color: $space_blue;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -8,8 +9,15 @@
     height: 60px;
 
     h1 {
-        margin: 0;
-        font-size: 20px;
+        margin: 2.5px;
+        font-size: 30px;
         color: #fff;
+        font-family: 'Exo', sans-serif;
+        box-shadow: 0px 4px 10px rgba(241, 238, 238, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    h1:hover {
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     }
 }

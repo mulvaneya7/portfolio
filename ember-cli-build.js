@@ -8,6 +8,9 @@ module.exports = function (defaults) {
     sassOptions: {
       extension: 'scss',
     },
+    googleFonts: {
+      fonts: ['Exo'],
+    },
   });
 
   return app.toTree();
