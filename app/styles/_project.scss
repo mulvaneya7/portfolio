@@ -1,0 +1,52 @@
+@import './fontscolors.scss'; // Import the font and color variables
+
+.project-hub {
+    margin-left: 250px; // Set the left margin to the width of the sidebar
+    height: 100vh; // Set the height to cover the entire viewport
+}
+
+.project-hub__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    h1 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Exo', sans-serif;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.star {
+    height: 25px;
+    width: 25px;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    border: $space_blue 2px solid;
+
+    .card-img-top {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card-body {
+        padding: 10px;
+        background-color: $space_blue_opacity;
+        color: #fff;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+    }
+}
