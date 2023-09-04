@@ -5,6 +5,9 @@
     <div class="project-hub__display">
         <ProjectMap::Project::ProjectCard @imageUrl="/images/flask.jpg" @projectDescription="This Flask-based project is dedicated to crafting a RESTful API microservice 
         that replicates Twitter's user management, authentication, and dynamic timeline functionality. "/>
+        {{#each this.projects as |project|}}
+            <ProjectMap::Project::ProjectCard @imageUrl={{project.url}} @projectDescription={{project.description}}/>
+        {{/each}}
         {{outlet}}
     </div>
 </div>
