@@ -17,3 +17,30 @@
   }
 
 }
+
+.ember-logo {
+  width: 225px;
+  object-fit: cover;
+  object-position: center;
+  position: fixed;
+  bottom: 45px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1; // Place the logo in front of other content
+
+  p {
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+  img {
+    width: 125px;
+    height: auto;
+  }
+}
