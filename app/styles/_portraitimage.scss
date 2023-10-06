@@ -1,13 +1,17 @@
 @import './fontscolors.scss'; // Import the font and color variables
 
+.aboutme-display {
+    margin-left: 250px; // Set the left margin to the width of the sidebar
+    height: 100%;
+}
+
 .portraitimage {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20%;
     height: 20%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 15px;
 
     img {
         width: 100%;
@@ -24,11 +28,10 @@
 }
 
 .aboutme-text-box {
-    background-color: $forest_tan;
-    border: 1px solid $space_blue;
+    background-color: rgba(255, 255, 255, 0.55);
     padding: 20px;
-    margin: 15px;
-    width: 70%;
+    margin-left: 25px;
+    width: 60%;
 
     h3 {
         color: #fff;
@@ -38,7 +41,7 @@
     }
 
     p {
-        color: #fff;
+        color: black;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
     }
