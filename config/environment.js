@@ -2,6 +2,7 @@
 
 module.exports = function (environment) {
   const ENV = {
+    googleFonts: ['Exo', 'Martel'],
     modulePrefix: 'portfolio',
     environment,
     rootURL: '/',

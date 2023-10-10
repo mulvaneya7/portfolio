@@ -4,7 +4,7 @@
     </div>
     <div class="project-hub__display">
         {{#each this.projects as |project|}}
-            <ProjectMap::Project::ProjectTile @title={{project.title}} @description={{project.description}} @project-name={{project.title}}/>
+            <ProjectMap::Project::ProjectPost @title={{project.title}} @description={{project.description}} @sections={{project.sections}} @url={{project.url}} @image={{project.image}}/>
         {{/each}}
         
     </div>

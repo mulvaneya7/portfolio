@@ -5,10 +5,13 @@
     position: fixed;  // Keep the sidebar fixed in its position
     left: 0;          // Position the sidebar on the left side
     height: 100vh;    // Set the height to cover the entire viewport
-    width: 250px;     // Set the desired width of the sidebar
+    width: 350px;     // Set the desired width of the sidebar
     //background-color: #333; // Set the background color of the sidebar
     color: #fff;            // Set the text color of the sidebar
     background-color: $background_opactiy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 //if the screen is smaller than 768px, hide the sidebar
@@ -22,6 +25,43 @@
     padding: 20px;    // Add padding for the content inside the sidebar
   }
   
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-family: 'Exo', sans-serif; 
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0;
+    position: relative;
+
+    overflow: hidden; /* Hide overflow content (initially hidden text) */
+    transition: color 0.3s ease-in-out; /* Add a transition for the text color */
+    line-height: 1; /* Adjust the line height to bring the underline closer to the text */
+  }
+
+  .name::after {
+    content: '';
+    display: block;
+    width: 0; /* Start with no width */
+    height: 4px; /* Set the thickness of the underline */
+    background-color: $secondary_color;
+    transition: width 0.3s ease-in-out; /* Add a transition for the underline effect */
+    
+  }
+
+  .name:hover::after {
+    width: 93%; /* Expand the underline to the Y */
+  }
+
+  .name:hover {
+    color: $secondary_color; /* Change the text color on hover */
+  }
+
   ul {
     list-style: none;
     padding: 0;
@@ -48,6 +88,7 @@
   
 .social-links {
   display: flex;
+  justify-content: flex-start;
   padding-top: 10px;
 }
   

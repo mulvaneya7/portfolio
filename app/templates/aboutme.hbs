@@ -1,12 +1,14 @@
 {{page-title "about me"}}
-<BackgroundPhoto @imageUrl="https://images.unsplash.com/photo-1476937673710-8174834aa065?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"/>
 <MySidebar />
-<div class="aboutme-display">
-    <PortraitImage @imageUrl="/images/me.jpg" />
-    <AboutmeTextDisplay @text1="As an accomplished Cloud Engineering consultant and a Computer Science graduate from California State University, Fullerton, I bring a robust educational foundation to my work. My expertise extends to implementing cloud infrastructure solutions for enterprise clients, with a specialization in cloud architecture, DevOps practices, 
-    and technical project management. I consistently achieve high-quality results within project timelines and financial objectives."
-    @text2="In addition to my cloud expertise, I am a skilled full-stack developer with proficiency in Python for back-end software development and Ember (JavaScript/HTML/CSS) for front-end development. This comprehensive skill set enables me to excel as a full-stack developer, allowing me to build end-to-end solutions that meet and exceed project requirements.
-    Furthermore, I am adept at communicating complex technical concepts to a wide range of stakeholders, whether they are technical or non-technical. I thrive in collaborative environments and work seamlessly with cross-functional teams to deliver successful outcomes."/>
+<div class="aboutme-page">
+    <div class="aboutme-display">
+        <div class="aboutme-content">
+            <PortraitImage @imageUrl="/images/me.jpg" />
+            <AboutmeTextDisplay @text1="As an accomplished Cloud Engineering consultant and a Computer Science graduate from California State University, Fullerton, I bring a robust educational foundation to my work. My expertise extends to implementing cloud infrastructure solutions for enterprise clients, with a specialization in cloud architecture, DevOps practices, 
+            and technical project management. I consistently achieve high-quality results within project timelines and financial objectives."
+            @text2="In addition to my cloud expertise, I am a skilled full-stack developer with proficiency in Python for back-end software development and Ember (JavaScript/HTML/CSS) for front-end development. This comprehensive skill set enables me to excel as a full-stack developer, allowing me to build end-to-end solutions that meet and exceed project requirements.
+            Furthermore, I am adept at communicating complex technical concepts to a wide range of stakeholders, whether they are technical or non-technical. I thrive in collaborative environments and work seamlessly with cross-functional teams to deliver successful outcomes."/>
+        </div>
+    </div>
 </div>
-<Footer />
 {{outlet}}

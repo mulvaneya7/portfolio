@@ -9,7 +9,7 @@ module.exports = function (defaults) {
       extension: 'scss',
     },
     googleFonts: {
-      fonts: ['Exo'],
+      fonts: ['Exo', 'Martel'],
     },
   });
 

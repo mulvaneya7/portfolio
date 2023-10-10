@@ -1,9 +1,12 @@
 @import './fontscolors.scss'; // Import the font and color variables
 
-.project-hub {
-    margin-left: 250px; // Set the left margin to the width of the sidebar
+.project-page {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: $primary_color;
+}
+
+.project-hub {
+    margin-left: 350px; // Set the left margin to the width of the sidebar
 }
 
 .project-hub__header {
@@ -19,16 +22,78 @@
         font-size: 30px;
         color: #fff;
         font-family: 'Exo', sans-serif;
+        font-weight: 600;
     }
 }
 
 //content display for the project page
 .project-hub__display {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0px;
-    padding: 30px;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+.project-post {
+    width: 60%;
+}
+
+.project-post__header {
+    margin-top: 15px;
+    margin-bottom: 30px;  
+
+    h1 {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Exo', sans-serif;
+        font-weight: 900;
+    }
+}
+
+.project-post__content {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        margin-top: 10px;
+        font-size: 21px;
+        color: $secondary_color;
+        font-family: 'Exo', sans-serif;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 16px;
+        color: #fff;
+        font-family: 'Martel', serif;
+        font-weight: 200;
+    }
+}
+
+.project-post__image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+    img {
+        object-fit: cover;
+        object-position: center;
+        height: 175px;
+    }
+    
+}
+
+.project-post__link {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 15px;
+
+    a {
+        color: $secondary_color;
+    }
 }
 
 .projects {
