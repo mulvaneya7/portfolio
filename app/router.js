@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('not-found', { path: '/*path' });
   this.route('aboutme');
   this.route('project', { path: '/project/:project_name' });
+  this.route('contactme');
 });

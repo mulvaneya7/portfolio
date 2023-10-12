@@ -56,5 +56,32 @@ export default class ProjectHubComponent extends Component {
         },
       ],
     },
+    {
+      title: 'Building My Personal Portfolio Website with Ember.js',
+      image: '/images/ember.png',
+      url: 'https://github.com/mulvaneya7/portfolio',
+      sections: [
+        {
+          subheader: 'The Vision',
+          description:
+            'Every developer needs a space to display their talents, projects, and experiences. Recognizing this need, I embarked on a mission to build a personal portfolio website that could serve as my digital identity. My vision was clear - create an impressive, user-friendly, and customizable platform that could effectively communicate my skills and accomplishments to the world.',
+        },
+        {
+          subheader: 'Choosing Ember.js',
+          description:
+            'Selecting the right technology stack was crucial. After evaluating several options, I decided to go with Ember.js. Why Ember? Because it offers a solid foundation for building ambitious web applications with a strong emphasis on developer productivity. Its conventions and ease of use made it an ideal choice for this project.',
+        },
+        {
+          subheader: 'Challenges and Learning',
+          description:
+            'Building my portfolio website with Ember.js came with its fair share of challenges and valuable lessons. While Ember.js is known for its productivity, it has a learning curve. I invested time in understanding its conventions and concepts, which paid off in the long run. Ensuring a seamless experience across various devices required meticulous attention to responsive design principles.',
+        },
+        {
+          subheader: 'Conclusion',
+          description:
+            "Building my personal portfolio website with Ember.js was not just a technical project; it was a reflection of my skills, passion, and commitment to the world of web development. It's a testament to the power of Ember.js as a framework and my dedication to creating a standout online presence.",
+        },
+      ],
+    },
   ];
 }
