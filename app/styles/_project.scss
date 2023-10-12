@@ -88,11 +88,19 @@
 
 .project-post__link {
     width: 55px;
-    height: 55px;
     margin-bottom: 15px;
 
     a {
         color: $secondary_color;
+        text-decoration: none;
+        padding: 8px 12px;
+        display: block;
+        border-radius: 5px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+        background-color: #fff;
     }
 }
 

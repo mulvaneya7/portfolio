@@ -6,19 +6,56 @@
 
 .contactme-display {
     margin-left: 350px; // Set the left margin to the width of the sidebar
-    height: 100vh;
+    padding-top: 125px;
+    height: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.contactme-section {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: start;
     align-items: center;
+
+    .contactme-section__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        h2 {
+            font-size: 24px;
+            color: $secondary_color;
+            font-family: 'Exo', sans-serif;
+            font-weight: 900;
+        }
+    
+        p {
+            font-size: 14px;
+            color: #fff;
+            font-family: 'Martel', sans-serif;
+            font-weight: 600;
+            margin-top: 20px;
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+    }
 }
+
 
 .contactme-container {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 50%;
+    width: 450px;
     padding: 25px;
-    margin-left: 50px;
 
     h2 {
         font-size: 36px;
@@ -70,11 +107,48 @@
 }
 
 .resume-download {
-    width: 50%;
+    width: 45%; 
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
+
+    .resume-download__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 24px;
+            color: $secondary_color;
+            font-family: 'Exo', sans-serif;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 14px;
+            color: #fff;
+            font-family: 'Martel', sans-serif;
+            font-weight: 600;
+            margin-top: 20px;
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+}
+
+}
+
+.resume-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 25px;
 
     img {
         width: 100%;
@@ -83,4 +157,9 @@
         object-position: center;
         border-radius: 30px;
     }
+
+    a {
+        text-decoration: none;
+    }
+
 }

@@ -23,6 +23,32 @@
   
   .sidebar {
     padding: 20px;    // Add padding for the content inside the sidebar
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+      font-size: large;
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;   // Inherit the text color from the parent
+      display: block;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.2s, color 0.2s;
+      font-family: 'Exo', sans-serif;
+    }
+    
+    a:hover {
+      background-color: #fff;
+      color: $secondary_color;
+    }
+
   }
   
   .sidebar-header {
@@ -62,33 +88,9 @@
     color: $secondary_color; /* Change the text color on hover */
   }
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-    font-size: large;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;   // Inherit the text color from the parent
-    display: block;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background-color 0.2s, color 0.2s;
-    font-family: 'Exo', sans-serif;
-  }
-  
-  a:hover {
-    background-color: #fff;
-  }
   
 .social-links {
   display: flex;
   justify-content: flex-start;
-  padding-top: 10px;
 }
   
