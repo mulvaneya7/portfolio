@@ -2,9 +2,9 @@ import Component from '@glimmer/component';
 
 export default class MySidebarComponent extends Component {
   links = [
-    { label: 'About Me', url: '/aboutme' },
     { label: 'Projects', url: '/projects' },
-    { label: 'Contact Me', url: '/contactme' },
+    { label: 'About Me', url: '/aboutme' },
+    { label: 'Contact & Resume', url: '/contactme' },
   ];
   socialLinks = [
     { label: 'GitHub', url: 'https://github.com/mulvaneya7' },
