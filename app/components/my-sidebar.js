@@ -4,7 +4,7 @@ export default class MySidebarComponent extends Component {
   links = [
     { label: 'Projects', url: '/projects' },
     { label: 'About Me', url: '/aboutme' },
-    { label: 'Contact & Resume', url: '/contactme' },
+    { label: 'Resume', url: '/contactme' },
   ];
   socialLinks = [
     { label: 'GitHub', url: 'https://github.com/mulvaneya7' },
