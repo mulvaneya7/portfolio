@@ -5,7 +5,7 @@ module.exports = function (environment) {
     googleFonts: ['Exo', 'Martel'],
     modulePrefix: 'portfolio',
     environment,
-    rootURL: '/',
+    rootURL: 'https://mulvaneya7.github.io/portfolio/',
     locationType: 'history',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
