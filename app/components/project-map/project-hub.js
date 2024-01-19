@@ -4,28 +4,6 @@ import { tracked } from '@glimmer/tracking';
 export default class ProjectHubComponent extends Component {
   @tracked projects = [
     {
-      title: 'Flask Restful API',
-      image: '/images/flask.jpg',
-      url: 'https://github.com/mulvaneya7/microservices_RESTapi_flask',
-      sections: [
-        {
-          subheader: 'Valuable Insights',
-          description:
-            'To kickstart your project, start by initializing the database using the flask init command. This creates the necessary database structure and adds initial users. Then, fire up the microservices with foreman start to access the full range of features.',
-        },
-        {
-          subheader: 'User Management',
-          description:
-            'The Users Microservice offers user creation, authentication, and follower management. You can create users, add or remove followers, and authenticate accounts seamlessly. Plus, the REST API makes it easy to integrate these functionalities into your applications.',
-        },
-        {
-          subheader: 'Timeline Interaction',
-          description:
-            'The Timelines Microservice is perfect for handling timeline interactions. It allows you to post tweets, retrieve user-specific posts, and access a public timeline. Additionally, you can create a "home timeline" featuring posts from users a specific username follows. With these features, managing user timelines becomes a breeze.',
-        },
-      ],
-    },
-    {
       title: 'Apple: Leading the Way in Launching a New Servicing Platform',
       image: '/images/apple.png',
       sections: [
@@ -53,6 +31,65 @@ export default class ProjectHubComponent extends Component {
           subheader: 'Conclusion',
           description:
             'The launch and implementation of the new servicing platform was a testament to my leadership and project management skills. It highlighted my ability to bring together teams from different domains, keep projects on track, and adhere to Agile methodologies for efficient deliveries.',
+        },
+      ],
+    },
+    {
+      title: 'Cloud Suitability and Readiness - Healthcare',
+      image: '/images/cloud_strategy.png', // Placeholder image
+      sections: [
+        {
+          subheader: 'Cloud Operational Readiness',
+          description:
+            'My team and I, led the development of critical deliverables including the Application Estate Portfolio and Cloud Operational Readiness Report. This project required a deep understanding of cloud operations and application architecture.',
+        },
+        {
+          subheader: 'Resource and Timeline Management',
+          description:
+            'I Managed resources and timelines effectively to deliver high-quality results. This role demanded strong project management skills and a strategic approach to meeting deadlines and project goals.',
+        },
+      ],
+    },
+    {
+      title: 'Merger & Acquisition Lead - Stock Exchange',
+      image: '/images/PM.png', // Placeholder image
+      sections: [
+        {
+          subheader: 'Project Management Excellence',
+          description:
+            'This project involved managing 12 workstreams, integrating a large stock exchange with an acquired company. The focus was on timely completion and adherence to budget constraints, showcasing advanced project management skills and effective stakeholder communication.',
+        },
+        {
+          subheader: 'Collaborative Teamwork',
+          description:
+            'I worked in collaboration with DevOps and InfoSec teams, ensuring smooth integration and alignment of IT and security standards. This multidisciplinary approach was key to the project’s success.',
+        },
+        {
+          subheader: 'Stakeholder Communication',
+          description:
+            'I engaged with stakeholders at various levels, ensuring clear communication and alignment with project goals. This role demanded high-level communication skills and an ability to navigate complex organizational structures.',
+        },
+      ],
+    },
+    {
+      title: 'Flask Restful API',
+      image: '/images/flask.jpg',
+      url: 'https://github.com/mulvaneya7/microservices_RESTapi_flask',
+      sections: [
+        {
+          subheader: 'Valuable Insights',
+          description:
+            'To kickstart your project, start by initializing the database using the flask init command. This creates the necessary database structure and adds initial users. Then, fire up the microservices with foreman start to access the full range of features.',
+        },
+        {
+          subheader: 'User Management',
+          description:
+            'The Users Microservice offers user creation, authentication, and follower management. You can create users, add or remove followers, and authenticate accounts seamlessly. Plus, the REST API makes it easy to integrate these functionalities into your applications.',
+        },
+        {
+          subheader: 'Timeline Interaction',
+          description:
+            'The Timelines Microservice is perfect for handling timeline interactions. It allows you to post tweets, retrieve user-specific posts, and access a public timeline. Additionally, you can create a "home timeline" featuring posts from users a specific username follows. With these features, managing user timelines becomes a breeze.',
         },
       ],
     },
