@@ -5,7 +5,7 @@ export default class ProjectHubComponent extends Component {
   @tracked projects = [
     {
       title: 'Apple: Leading the Way in Launching a New Servicing Platform',
-      image: '/images/apple.png',
+      image: 'images/apple.png',
       sections: [
         {
           subheader: 'The Project Overview',
@@ -36,7 +36,7 @@ export default class ProjectHubComponent extends Component {
     },
     {
       title: 'Cloud Suitability and Readiness - Healthcare',
-      image: '/images/cloud_strategy.png', // Placeholder image
+      image: 'images/cloud_strategy.png', // Placeholder image
       sections: [
         {
           subheader: 'Cloud Operational Readiness',
@@ -52,7 +52,7 @@ export default class ProjectHubComponent extends Component {
     },
     {
       title: 'Merger & Acquisition Lead - Stock Exchange',
-      image: '/images/PM.png', // Placeholder image
+      image: 'images/PM.png', // Placeholder image
       sections: [
         {
           subheader: 'Project Management Excellence',
@@ -73,7 +73,7 @@ export default class ProjectHubComponent extends Component {
     },
     {
       title: 'Flask Restful API',
-      image: '/images/flask.jpg',
+      image: 'images/flask.jpg',
       url: 'https://github.com/mulvaneya7/microservices_RESTapi_flask',
       sections: [
         {
@@ -95,7 +95,7 @@ export default class ProjectHubComponent extends Component {
     },
     {
       title: 'Building My Personal Portfolio Website with Ember.js',
-      image: '/images/ember.png',
+      image: 'images/ember.png',
       url: 'https://github.com/mulvaneya7/portfolio',
       sections: [
         {

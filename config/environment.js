@@ -5,7 +5,7 @@ module.exports = function (environment) {
     googleFonts: ['Exo', 'Martel'],
     modulePrefix: 'portfolio',
     environment,
-    rootURL: '/portfolio/',
+    rootURL: '/',
     locationType: 'history',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
