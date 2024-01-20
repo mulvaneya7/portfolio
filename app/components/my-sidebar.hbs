@@ -5,7 +5,7 @@
         </div>
             <ul>
                 {{#each this.links as |link|}}
-                <li><a href={{link.url}}><strong>{{link.label}}</strong></a></li>
+                <li><LinkTo @route={{link.url}}><strong>{{link.label}}</strong></LinkTo></li>
                 {{/each}}
             </ul>
         <SocialBar />

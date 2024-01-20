@@ -6,7 +6,7 @@ module.exports = function (environment) {
     modulePrefix: 'portfolio',
     environment,
     rootURL: '/portfolio/',
-    locationType: 'history',
+    locationType: 'hash', //default is 'history' set to 'hash' for github pages
     EmberENV: {
       EXTEND_PROTOTYPES: false,
       FEATURES: {
