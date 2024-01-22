@@ -1,5 +1,6 @@
 @import './fontscolors.scss'; // Import the font and color variables
 
+
 .project-page {
     height: 100%;
     background-color: $primary_color;
@@ -7,6 +8,13 @@
 
 .project-hub {
     margin-left: 350px; // Set the left margin to the width of the sidebar
+}
+
+@media (max-width: 768px) {
+    .project-hub {
+      height: 100%;
+      margin-left: 0px;
+    }
 }
 
 .project-hub__header {
@@ -36,6 +44,12 @@
 
 .project-post {
     width: 60%;
+}
+
+@media (max-width: 768px) {
+    .project-post {
+      width: 100%;
+    }
 }
 
 .project-post__header {

@@ -1,0 +1,15 @@
+<div class="mobile-header">
+  <div class="header-content">
+    <span class="name">Alex Mulvaney</span>
+    <nav>
+      <ul>
+        {{#each this.links as |link|}}
+        <li>
+          <LinkTo @route={{link.url}}>{{link.label}}</LinkTo>
+        </li>
+        {{/each}}
+      </ul>
+    </nav>
+    <SocialBar />
+  </div>
+</div>
