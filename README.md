@@ -2,14 +2,10 @@
 
 Welcome to the GitHub repository for Alex Mulvaney's personal portfolio website. This site showcases Alex's professional work, skills, and projects, all built using the Ember.js framework.
 
-## Prerequisites
+## Framework
 
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+This project is built using Ember.js, a productive, battle-tested JavaScript framework for building modern web applications.
 * [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
